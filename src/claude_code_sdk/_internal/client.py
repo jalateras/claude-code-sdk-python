@@ -83,7 +83,6 @@ class InternalClient:
                 )
 
             case "result":
-                print(data)
                 # Map total_cost to total_cost_usd for consistency
                 return ResultMessage(
                     subtype=data["subtype"],
