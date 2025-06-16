@@ -48,7 +48,7 @@ class TestIntegration:
                         "is_error": False,
                         "num_turns": 1,
                         "session_id": "test-session",
-                        "total_cost": 0.001,
+                        "total_cost_usd": 0.001,
                     }
 
                 mock_transport.receive_messages = mock_receive
@@ -113,7 +113,7 @@ class TestIntegration:
                         "is_error": False,
                         "num_turns": 1,
                         "session_id": "test-session-2",
-                        "total_cost": 0.002,
+                        "total_cost_usd": 0.002,
                     }
 
                 mock_transport.receive_messages = mock_receive

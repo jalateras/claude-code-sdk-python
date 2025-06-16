@@ -92,7 +92,7 @@ class InternalClient:
                     is_error=data["is_error"],
                     num_turns=data["num_turns"],
                     session_id=data["session_id"],
-                    total_cost_usd=data["total_cost"],
+                    total_cost_usd=data["total_cost_usd"],
                     usage=data.get("usage"),
                     result=data.get("result"),
                 )
