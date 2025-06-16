@@ -86,7 +86,6 @@ class InternalClient:
                 # Map total_cost to total_cost_usd for consistency
                 return ResultMessage(
                     subtype=data["subtype"],
-                    cost_usd=data["cost_usd"],
                     duration_ms=data["duration_ms"],
                     duration_api_ms=data["duration_api_ms"],
                     is_error=data["is_error"],

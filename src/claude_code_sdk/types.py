@@ -75,7 +75,6 @@ class ResultMessage:
     """Result message with cost and usage information."""
 
     subtype: str
-    cost_usd: float
     duration_ms: int
     duration_api_ms: int
     is_error: bool
